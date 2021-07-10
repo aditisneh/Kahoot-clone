@@ -26,7 +26,7 @@ app.use(express.static(publicPath));
 
 //Starting server on port 3000
 
-const PORT =process.env.PORT ||3000 ;
+const PORT =process.env.PORT || 4000 ;
 
 server.listen(PORT, () => console.log(`server is running on port ${PORT}`))
 

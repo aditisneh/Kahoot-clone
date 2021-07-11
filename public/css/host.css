@@ -1,25 +1,24 @@
 @keyframes bgcolor {
     0% {
-        background-color: #45a3e5
+        background: #464EB8;
     }
 
     30% {
-        background-color: #66bf39
+        background:  #787ED6 28.96%;
     }
 
     60% {
-        background-color: #eb670f
+        background:#434bb3;
     }
 
     90% {
-        background-color: #f35
+        background:  #787ED6 60.73%;
     }
 
     100% {
-        background-color: #864cbf
+        background: #464EB8 100%;
     }
 }
-
 body {
     -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 10s infinite;
@@ -63,4 +62,12 @@ body {
     margin-right: auto;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
+}
+button {
+    font-size: 20px;
+    color: white;
+    background: #656dda;
+    box-shadow: -14px 16px 27px rgba(0, 0, 0, 0.25), inset 5px -6px 10px rgba(0, 0, 0, 0.25), inset -5px 5px 8px #7C81FA;
+    border-radius: 20px;
+
 }

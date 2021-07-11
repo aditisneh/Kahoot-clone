@@ -1,22 +1,22 @@
 @keyframes bgcolor {
     0% {
-        background-color: #45a3e5
+        background: #464EB8;
     }
 
     30% {
-        background-color: #66bf39
+        background:  #787ED6 28.96%;
     }
 
     60% {
-        background-color: #eb670f
+        background:#464EB8;
     }
 
     90% {
-        background-color: #f35
+        background:  #787ED6 60.73%;
     }
 
     100% {
-        background-color: #864cbf
+        background: #464EB8 100%;
     }
 }
 
@@ -26,31 +26,59 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
-#title{
+
+#title {
     color: white;
     text-align: center;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
 }
-#subtitle{
+
+#subtitle {
     color: white;
     text-align: center;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
-#link{
+
+#link {
+    color: white;
+    text-decoration: none;
+}
+
+#game-list {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+    background: #656dda;
+    box-shadow: -14px 16px 27px rgba(0, 0, 0, 0.25), inset 5px -6px 10px rgba(0, 0, 0, 0.25), inset -5px 5px 8px #7C81FA;
+    border-radius: 20px;
+
+}
+
+#back {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border: none;
+}
+#back:hover{
+    color: black;
+}
+
+#gameButton {
+    padding: 10px;
+    width: 150px;
+    font-size: 40px;
+    border: none;
     color: white;
 }
-#game-list{
-    text-align: center;
-}
-#back{
-    color: white;
-    text-align: center;
-}
-#gameButton{
-    font-size:80px;
-}
-#gameButton:hover{
+
+#gameButton:hover {
     cursor: pointer;
+    color: wheat;
 }

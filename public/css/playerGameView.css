@@ -5,14 +5,26 @@ button{
 #answer1{
     background-color: #4CAF50;
 }
+#answer1:hover{
+    background-color: #349e37;
+}
 #answer2{
     background-color: #f94a1e;
+}
+#answer2:hover{
+    background-color: #eb3e13;
 }
 #answer3{
     background-color: #3399ff;
 }
+#answer3:hover{
+    background-color: #1f7fe0;
+}
 #answer4{
     background-color: #ff9933;
+}
+#answer4:hover{
+    background-color: #e07c18;
 }
 
 #buttons{

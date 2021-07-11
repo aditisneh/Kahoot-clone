@@ -1,17 +1,32 @@
+*{
+    font-weight: 600;
+}
 #question-field{
     border-style: groove;
-    border-width: 1px;
-    padding: 10px;
+   border: none;
+    padding: 20px;
     font-family: 'Raleway', sans-serif;
+    background: linear-gradient(122.06deg, #DEE0F8 14.47%, rgba(216, 219, 255, 0.63) 70.59%);
+    box-shadow: 0px 4px 24px -1px rgba(207, 210, 250, 0.12);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 30px;
+
 }
 .question{
     width: 400px;
     font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+    border: none;
+    
 }
 .correct{
     width: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+    border: none;
 }
 #title{
     text-align: center;
@@ -19,4 +34,20 @@
 }
 #quizTitle{
     font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+button{
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    background: #7F86ED;
+box-shadow: -14px 16px 27px rgba(0, 0, 0, 0.25), inset 5px -6px 10px rgba(0, 0, 0, 0.25), inset -5px 5px 8px #7C81FA;
+border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: #575ebb;
 }
